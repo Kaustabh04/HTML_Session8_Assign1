@@ -1,0 +1,111 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:arial;
+}
+h3{
+	color:#234465;
+}
+a{
+	color:#fff;
+	font-size:9px;
+}
+input{
+	padding:4px;
+	width:100%;
+	margin: 8px 0 8px 0;
+}
+#wrapper{
+	width:50%;
+	float:left;
+	background:#eeeeee;
+}
+.brwnBand{
+	background:#484848;
+	height:20px;
+	border-bottom:1px solid #fff;
+}
+.frmContainer{
+	width:100%;
+	margin:15px;
+	float:left;
+}
+
+/* Text styles Start */
+
+.txtSmall{
+	font-size:11px;
+	color:#9d9d9e;
+	line-height:40px;
+}
+.whiteTxt{
+	color:#fff;
+	font-size:13px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.whiteTxtNormal{
+	color:#fff;
+	font-size:12px;
+}
+.greyTxt{
+	color:#85858c;
+	font-size:13px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+/* Text styles End */
+
+.leftCont{
+	float:left;
+	width:48%;
+	padding-right:40px;
+}
+.rightCont{
+	float:left;
+	width:47%;
+	background:#234465;
+    padding:6px 15px 0 15px;
+	height:218px;
+}
+.btnReg{
+	border:1px solid #234465;
+	background:transparent;
+	color:#234465;
+	padding:4px 20px 4px 20px;
+	font-weight:bold;
+}
+.btnLogin{
+	border:1px solid #ffa500;
+	background:transparent;
+	color:#fff;
+	padding:4px 20px 4px 20px;
+	font-weight:bold;
+	margin-bottom:8px;
+}
+.btnRegCont{
+	float:right;
+	margin-top:10px;
+}
+
+/* Pseudo class for Form validation start */
+
+input:invalid {
+    border:1px solid red;
+}
+input:valid {
+    background-color: #fff;
+}
+input:required {
+    border:1px solid #red;
+}
+
+input:required:valid {
+    border:1px solid #c2c2c2;
+}
+input:focus{
+    outline: none;
+}
+/* Pseudo class end */
